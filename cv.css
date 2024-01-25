@@ -1,0 +1,57 @@
+body{
+    padding: 1rem 150px 0px 150px;
+    min-height: 100vh;
+}
+html{
+    scroll-behavior: smooth;
+}
+.header{
+    border: 1px
+}
+.header title{
+    color: solid blueviolet
+}
+.classbar{
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.nav--link{
+    margin-left: 2rem;
+    align-items: center;
+}
+main{
+    min-width: 500px;
+    width: 90%;
+    margin: 0 auto;
+    background-color: aqua;
+    height: 90%;
+    display: flex;
+}
+.flex{
+    height: 400px;
+    width: 400px;
+    margin: 50px;
+}
+main ul{
+    list-style: none;
+}
+.box{
+    height: 400px;
+    width: 400px;
+    margin: 50px;
+}
+.groupe{
+    display: flex;
+    justify-content: space-between;
+}
+.champ{
+    height: 20px;
+    display: flex;
+}
+.monte{
+    display: flex;
+}
